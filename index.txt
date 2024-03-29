@@ -43,7 +43,7 @@ Open: 9.30 am - 2.30pm
 booking@भोजनम्.com
 
 Booking Request
-+88-123-123456
+079-98565621
 
 Find A Table
 
@@ -213,7 +213,7 @@ Sam Jhonson
 Online Reservation
 
 Booking request
-+88-123-123456
+079-98565621
 or fill out the order form
 
 placeholder = Your Name
@@ -245,7 +245,7 @@ Contact Us
 
 Booking Request
 
-+88-123-123456
+079-98565621
 
 Location
 
@@ -313,7 +313,7 @@ Restaurant St, Delicious City, London 9578, UK
 
 booking@भोजनम्.com
 
-Booking Request : +88-123-123456
+Booking Request : 079-98565621
 
 Open : 09:00 am - 01:00 pm
 
@@ -442,5 +442,5 @@ Monday to Sunday
 Contact Us
 Restaurant St, Delicious City, London 9578, UK
 
-+88-123-123456
+079-98565621
 reservation@restro.com
