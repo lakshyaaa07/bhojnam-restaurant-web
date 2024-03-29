@@ -2,9 +2,7 @@
   #index.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
+
 
 
 
@@ -540,7 +538,7 @@ body.nav-active { overflow: hidden; }
 .preload.loaded > * { opacity: 0; }
 
 .preload.loaded {
-  transition-delay: 250ms;
+  transition-delay: 200ms;
   transform: translateY(100%);
 }
 
@@ -551,7 +549,7 @@ body.nav-active { overflow: hidden; }
   border: 3px solid var(--white);
   border-block-start-color: var(--smoky-black-3);
   margin-block-end: 45px;
-  animation: rotate360 1s linear infinite;
+  animation: rotate360 5s linear infinite;
 }
 
 @keyframes rotate360 {
@@ -560,6 +558,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .preload .text {
+  background-color: black;
   background-image: var(--loading-text-gradient);
   background-size: 500%;
   font-size: calc(2rem + 3vw);
@@ -572,7 +571,7 @@ body.nav-active { overflow: hidden; }
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-stroke: 0.5px var(--eerie-black-3);
-  animation: loadingText linear 2s infinite;
+  animation: 50s linear 1s infinite;
 }
 
 @keyframes loadingText {
@@ -798,11 +797,13 @@ body.nav-active { overflow: hidden; }
   visibility: hidden;
   transition: var(--transition-3);
   z-index: 1;
+
 }
 
 .hero .slider-item.active {
-  opacity: 1;
+  opacity: 50;
   visibility: visible;
+  
 }
 
 .hero .slider-bg {
@@ -929,7 +930,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .service-card:is(:hover, :focus-within) .has-before::before {
-  transform: rotateY(0.5turn) translateX(50%);
+  transform: rotateY(0.9turn) translateX(50%);
   transition-delay: 300ms;
 }
 
@@ -2141,3 +2142,5 @@ textarea.input-field {
   }
 
 }
+
+
