@@ -270,6 +270,23 @@ body.nav-active { overflow: hidden; }
   transform: rotate(45deg);
 }
 
+
+.seperator {
+
+  content: url('../images/Divider.svg');
+
+  display: block;
+  
+  height: 40px;
+  width: 200px ;
+  margin-inline: auto;
+  margin-block-start: 5px;
+  
+}
+
+
+
+
 .contact-label { font-weight: var(--weight-bold); }
 
 .contact-number {
