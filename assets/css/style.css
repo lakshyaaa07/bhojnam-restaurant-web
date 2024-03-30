@@ -576,6 +576,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .preload .text {
+  background-color: black;
   background-image: var(--loading-text-gradient);
   background-size: 500%;
   font-size: calc(2rem + 3vw);
