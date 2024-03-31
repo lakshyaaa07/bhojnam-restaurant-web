@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 /**
  * PRELOAD
  * 
@@ -16,7 +14,6 @@ window.addEventListener("load", function () {
 });
 
 
-
 /**
  * add event listener on multiple elements
  */
@@ -26,7 +23,6 @@ const addEventOnElements = function (elements, eventType, callback) {
     elements[i].addEventListener(eventType, callback);
   }
 }
-
 
 
 /**
